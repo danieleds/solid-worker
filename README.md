@@ -62,8 +62,8 @@ Broadcasts a message to the `Worker`
 Terminates the `Worker`
 
 ## License
-Copyright (c) 2015 Jason Mulligan
-Copyright (c) 2016 Daniele Di Sarli
+Copyright (c) 2015 Jason Mulligan  
+Copyright (c) 2016 Daniele Di Sarli  
 Licensed under the BSD-3 license
 
 Forked from: https://github.com/avoidwork/tiny-worker
