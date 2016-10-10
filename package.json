@@ -1,14 +1,14 @@
 {
-  "name": "tiny-worker",
-  "version": "1.1.7",
-  "description": "Tiny WebWorker for Server",
+  "name": "solid-worker",
+  "version": "1.2.0",
+  "description": "Process-based WebWorker for the server",
   "main": "lib/index.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/avoidwork/tiny-worker.git"
+    "url": "https://github.com/danieleds/solid-worker"
   },
   "keywords": [
     "web",
@@ -16,12 +16,12 @@
     "ps",
     "webworker"
   ],
-  "author": "Jason Mulligan <jason.mulligan@avoidwork.com>",
+  "author": "Daniele Di Sarli <danieleds0@gmail.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/avoidwork/tiny-worker/issues"
+    "url": "https://github.com/danieleds/solid-worker/issues"
   },
-  "homepage": "https://github.com/avoidwork/tiny-worker",
+  "homepage": "https://github.com/danieleds/solid-worker",
   "devDependencies": {
     "babel-eslint": "^4.1.0",
     "grunt": "^0.4.5",

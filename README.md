@@ -1,9 +1,9 @@
-# tiny-worker
-Tiny WebWorker for Server
+# solid-worker
+Process-based WebWorker for the server
 
 `require()` is available for flexible inline Worker scripts.
 
-[![build status](https://secure.travis-ci.org/avoidwork/tiny-worker.svg)](http://travis-ci.org/avoidwork/tiny-worker)
+<!-- [![build status](https://secure.travis-ci.org/danieleds/solid-worker.svg)](http://travis-ci.org/danieleds/solid-worker) -->
 
 ## Example
 #### Creating a Worker from a file
@@ -16,7 +16,7 @@ onmessage = function (ev) {
 
 The core script:
 ```javascript
-var Worker = require("tiny-worker");
+var Worker = require("solid-worker");
 var worker = new Worker("repeat.js");
 
 worker.onmessage = function (ev) {
@@ -29,7 +29,7 @@ worker.postMessage("Hello World!");
 
 #### Creating a Worker from a Function
 ```javascript
-var Worker = require("tiny-worker");
+var Worker = require("solid-worker");
 var worker = new Worker(function () {
 	self.onmessage = function (ev) {
 		postMessage(ev.data);
