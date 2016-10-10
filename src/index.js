@@ -8,7 +8,7 @@ class Worker {
 		let isfn = typeof arg === "function",
 			input = isfn ? arg.toString() : arg;
 
-		this.child = fork(worker);
+		this.child = fork(worker, [], {execArgv: []});
 		this.onerror = undefined;
 		this.onmessage = undefined;
 
