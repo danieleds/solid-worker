@@ -3,6 +3,7 @@ Process-based WebWorker for the server
 
 `require()` is available for flexible inline Worker scripts.
 
+[![npm version](https://badge.fury.io/js/solid-worker.svg)](https://badge.fury.io/js/solid-worker)
 [![build status](https://secure.travis-ci.org/danieleds/solid-worker.svg)](http://travis-ci.org/danieleds/solid-worker)
 
 ## Example
