@@ -64,7 +64,9 @@ Terminates the `Worker`
 
 ## License
 Copyright (c) 2015 Jason Mulligan  
-Copyright (c) 2016 Daniele Di Sarli  
+Copyright (c) 2016-2017 Daniele Di Sarli  
 Licensed under the BSD-3 license
 
 Forked from: https://github.com/avoidwork/tiny-worker
+
+This fork introduces bug fixes which has not been included in the original repo.
