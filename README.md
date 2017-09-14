@@ -69,4 +69,4 @@ Licensed under the BSD-3 license
 
 Forked from: https://github.com/avoidwork/tiny-worker
 
-This fork introduces bug fixes which has not been included in the original repo.
+This fork introduces bug fixes which weren't included in the original repo.
